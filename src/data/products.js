@@ -15,7 +15,7 @@ export const products = [
     pressure: 'Standard duty',
     description: 'Reliable conduit pipes for protected wiring applications.',
     image:
-      'https://images.unsplash.com/photo-1621955964441-c173e01c135a?auto=format&fit=crop&w=900&q=80',
+      'https://images.pexels.com/photos/2760243/pexels-photo-2760243.jpeg?auto=compress&cs=tinysrgb&w=1200',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const products = [
     pressure: 'High quality finish',
     description: 'UPVC range for domestic and building plumbing requirements.',
     image:
-      'https://images.unsplash.com/photo-1600857062241-98e5dba7f214?auto=format&fit=crop&w=900&q=80',
+      'https://images.pexels.com/photos/6474475/pexels-photo-6474475.jpeg?auto=compress&cs=tinysrgb&w=1200',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const products = [
     pressure: '2.5, 4, 6, 10',
     description: 'Pressure class PVC pipes for long life water flow systems.',
     image:
-      'https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?auto=format&fit=crop&w=900&q=80',
+      'https://images.pexels.com/photos/8961298/pexels-photo-8961298.jpeg?auto=compress&cs=tinysrgb&w=1200',
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const products = [
     pressure: 'Heavy duty',
     description: 'Blue casing pipes designed for borewell installations.',
     image:
-      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=80',
+      'https://images.pexels.com/photos/1974596/pexels-photo-1974596.jpeg?auto=compress&cs=tinysrgb&w=1200',
   },
 
 ]
