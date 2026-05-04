@@ -43,7 +43,7 @@ function CounterSection() {
       className="bg-cover bg-fixed bg-center py-16 text-white"
       style={{
         backgroundImage:
-          'linear-gradient(rgba(15,23,42,.86),rgba(15,23,42,.86)), url(https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1800&q=80)',
+          'linear-gradient(rgba(15,23,42,.86),rgba(15,23,42,.86)), url(https://images.unsplash.com/photo-1571019166697-1893fe4f4900?auto=format&fit=crop&w=2000&q=80)',
       }}
     >
       <div className="container-main grid gap-6 text-center sm:grid-cols-2 lg:grid-cols-4">

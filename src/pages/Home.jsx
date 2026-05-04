@@ -60,7 +60,7 @@ function Home() {
         className="relative min-h-screen overflow-hidden bg-cover bg-center"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(15,23,42,.76),rgba(15,23,42,.76)), url(https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1800&q=80)',
+            'linear-gradient(rgba(15,23,42,.76),rgba(15,23,42,.76)), url(https://images.unsplash.com/photo-1729169927271-7826d8aae360?auto=format&fit=crop&w=2000&q=80)',
         }}
       >
         <div className="container-main flex min-h-screen flex-col items-start justify-center pb-16 pt-32 text-white">
@@ -130,7 +130,13 @@ function Home() {
       <CounterSection />
       <TestimonialSlider />
 
-      <section className="bg-primary py-16 text-center text-white">
+      <section
+        className="relative overflow-hidden bg-cover bg-center py-16 text-center text-white"
+        style={{
+          backgroundImage:
+            'linear-gradient(rgba(15,23,42,.9),rgba(15,23,42,.92)), url(https://images.unsplash.com/photo-1654695376026-a4bec76a1081?auto=format&fit=crop&w=2000&q=80)',
+        }}
+      >
         <p className="container-main text-2xl font-bold">
           Need a Custom Quote? We supply in bulk for agriculture & construction.
         </p>

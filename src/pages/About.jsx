@@ -5,8 +5,8 @@ function About() {
     <div className="bg-white">
       <section className="container-main grid gap-10 py-16 lg:grid-cols-2">
         <img
-          src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1000&q=80"
-          alt="Factory"
+          src="https://images.unsplash.com/photo-1764835746713-34a671e73569?auto=format&fit=crop&w=1200&q=80"
+          alt="Stacks of industrial pipes on a manufacturing production line"
           loading="lazy"
           className="h-full min-h-72 w-full rounded-2xl object-cover"
         />
@@ -55,14 +55,23 @@ function About() {
         <h2 className="section-title">Manufacturing Facility</h2>
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {[
-            'https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=80',
-            'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=900&q=80',
-          ].map((src) => (
+            {
+              src: 'https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?auto=format&fit=crop&w=900&q=80',
+              alt: 'Production machinery on the factory floor',
+            },
+            {
+              src: 'https://images.unsplash.com/photo-1729169927271-7826d8aae360?auto=format&fit=crop&w=900&q=80',
+              alt: 'PVC pipe stock ready for dispatch',
+            },
+            {
+              src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=80',
+              alt: 'Industrial manufacturing equipment and production floor',
+            },
+          ].map((item) => (
             <img
-              key={src}
-              src={src}
-              alt="Plant"
+              key={item.src}
+              src={item.src}
+              alt={item.alt}
               loading="lazy"
               className="h-56 w-full rounded-xl object-cover"
             />
